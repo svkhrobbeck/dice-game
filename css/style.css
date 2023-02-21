@@ -69,9 +69,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -135,9 +137,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
@@ -177,11 +181,13 @@ main {
   position: absolute;
   top: 20px;
   font-size: 30px;
+  transition: color .5s ease;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+  transition: color .5s ease;
 }
 
 a:hover {

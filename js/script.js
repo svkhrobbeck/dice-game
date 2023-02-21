@@ -58,7 +58,7 @@ function holdBtnClick(evt) {
     document.querySelector(`[data-score-${activePlayer}]`).textContent =
       score[activePlayer];
 
-    if (score[activePlayer] >= 20) {
+    if (score[activePlayer] >= 100) {
       isGameOver = !isGameOver;
       document
         .querySelector(`[data-player-${activePlayer}]`)
